@@ -1,0 +1,17 @@
+# Ignore virtual environments
+venv/
+my_env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+
+# Ignore datasets and model files
+data/
+datasets/
+*.csv
+*.pkl
+*.joblib
