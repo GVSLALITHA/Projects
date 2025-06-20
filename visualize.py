@@ -13,7 +13,7 @@ connection = psycopg2.connect(
     port="5432",
     database="movies",
     user="postgres",
-    password="kamakshi@5"
+    password="your database password"
 )
 # Function to convert "1h 42m" -> Minutes (eg : 102)
 def convert_duration(duration_str):
